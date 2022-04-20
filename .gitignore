@@ -1,2 +1,5 @@
 rust/target
 
+ios/build
+ios/Pods
+ios/Podfile.lock

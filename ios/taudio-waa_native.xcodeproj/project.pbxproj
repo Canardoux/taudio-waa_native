@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA5852A4143C5BEE1325A5B /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */; };
+		C52F0EC7280F431600294F92 /* taudio_waa_native.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C52F0EC6280F431600294F92 /* taudio_waa_native.cpp */; };
+		C52F0EC9280F43AE00294F92 /* bindings.h in Headers */ = {isa = PBXBuildFile; fileRef = C52F0EC8280F43AE00294F92 /* bindings.h */; };
+		C57EC38C280FD77C0002153D /* taudio_waa_native.h in Headers */ = {isa = PBXBuildFile; fileRef = C57EC38B280FD77C0002153D /* taudio_waa_native.h */; };
+		C5CBB50227DA655E0014576B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50127DA655E0014576B /* CoreAudio.framework */; };
+		C5CBB50427DA65690014576B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50327DA65690014576B /* AudioToolbox.framework */; };
+		C5CBB50627DA657C0014576B /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50527DA657C0014576B /* CoreAudioKit.framework */; };
+		C5CBB50827DA65E50014576B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50727DA65E50014576B /* MediaPlayer.framework */; };
+		C5F09596280B1BDB007DBD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F09595280B1BDB007DBD42 /* Foundation.framework */; };
+		C5F09598280B1C44007DBD42 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F09597280B1C44007DBD42 /* Security.framework */; };
+		C5F0959F280B2716007DBD42 /* libtaudio_waa_native.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F0959E280B266D007DBD42 /* libtaudio_waa_native.a */; };
+		C5FE722727D9FEBB0047D657 /* taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FE721C27D9FEBA0047D657 /* taudio_waa_native.framework */; };
+		C5FE722C27D9FEBB0047D657 /* taudio_waa_nativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FE722B27D9FEBB0047D657 /* taudio_waa_nativeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5FE722827D9FEBB0047D657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FE721327D9FEBA0047D657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FE721B27D9FEBA0047D657;
+			remoteInfo = "taudio-waa_native";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065B41A0893A0A15F50A0DC4 /* Pods-taudio-waa_native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native.debug.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native/Pods-taudio-waa_native.debug.xcconfig"; sourceTree = "<group>"; };
+		285BF50C41EEB5A6AF7B3B47 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DADCA604346744127AB1E6C /* Pods-taudio-waa_native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native/Pods-taudio-waa_native.release.xcconfig"; sourceTree = "<group>"; };
+		3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native_taudio_waa_nativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FA4E7CB1520E851C53A747 /* Pods_taudio_waa_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C52F0EC6280F431600294F92 /* taudio_waa_native.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taudio_waa_native.cpp; sourceTree = "<group>"; };
+		C52F0EC8280F43AE00294F92 /* bindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
+		C57EC38B280FD77C0002153D /* taudio_waa_native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taudio_waa_native.h; sourceTree = "<group>"; };
+		C5CBB50127DA655E0014576B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		C5CBB50327DA65690014576B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		C5CBB50527DA657C0014576B /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/iOSSupport/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5CBB50727DA65E50014576B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		C5F09595280B1BDB007DBD42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C5F09597280B1C44007DBD42 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C5F0959E280B266D007DBD42 /* libtaudio_waa_native.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtaudio_waa_native.a; path = ../rust/target/universal/debug/libtaudio_waa_native.a; sourceTree = "<group>"; };
+		C5FE721C27D9FEBA0047D657 /* taudio_waa_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = taudio_waa_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FE722627D9FEBB0047D657 /* taudio-waa_nativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taudio-waa_nativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FE722B27D9FEBB0047D657 /* taudio_waa_nativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taudio_waa_nativeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FE721927D9FEBA0047D657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CBB50227DA655E0014576B /* CoreAudio.framework in Frameworks */,
+				C5F09596280B1BDB007DBD42 /* Foundation.framework in Frameworks */,
+				C5CBB50827DA65E50014576B /* MediaPlayer.framework in Frameworks */,
+				C5F0959F280B2716007DBD42 /* libtaudio_waa_native.a in Frameworks */,
+				C5CBB50627DA657C0014576B /* CoreAudioKit.framework in Frameworks */,
+				C5F09598280B1C44007DBD42 /* Security.framework in Frameworks */,
+				C5CBB50427DA65690014576B /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FE722327D9FEBB0047D657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FE722727D9FEBB0047D657 /* taudio_waa_native.framework in Frameworks */,
+				3FA5852A4143C5BEE1325A5B /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5B76C2B56212BC566E9867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				065B41A0893A0A15F50A0DC4 /* Pods-taudio-waa_native.debug.xcconfig */,
+				3DADCA604346744127AB1E6C /* Pods-taudio-waa_native.release.xcconfig */,
+				285BF50C41EEB5A6AF7B3B47 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */,
+				8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5CBB4EE27D9FF6D0014576B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0959E280B266D007DBD42 /* libtaudio_waa_native.a */,
+				C5F09597280B1C44007DBD42 /* Security.framework */,
+				C5F09595280B1BDB007DBD42 /* Foundation.framework */,
+				C5CBB50727DA65E50014576B /* MediaPlayer.framework */,
+				C5CBB50527DA657C0014576B /* CoreAudioKit.framework */,
+				C5CBB50327DA65690014576B /* AudioToolbox.framework */,
+				C5CBB50127DA655E0014576B /* CoreAudio.framework */,
+				3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */,
+				54FA4E7CB1520E851C53A747 /* Pods_taudio_waa_native.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5FE721227D9FEBA0047D657 = {
+			isa = PBXGroup;
+			children = (
+				C5FE721E27D9FEBA0047D657 /* taudio-waa_native */,
+				C5FE722A27D9FEBB0047D657 /* taudio-waa_nativeTests */,
+				C5FE721D27D9FEBA0047D657 /* Products */,
+				C5CBB4EE27D9FF6D0014576B /* Frameworks */,
+				1B5B76C2B56212BC566E9867 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FE721D27D9FEBA0047D657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FE721C27D9FEBA0047D657 /* taudio_waa_native.framework */,
+				C5FE722627D9FEBB0047D657 /* taudio-waa_nativeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FE721E27D9FEBA0047D657 /* taudio-waa_native */ = {
+			isa = PBXGroup;
+			children = (
+				C52F0EC8280F43AE00294F92 /* bindings.h */,
+				C57EC38B280FD77C0002153D /* taudio_waa_native.h */,
+				C52F0EC6280F431600294F92 /* taudio_waa_native.cpp */,
+			);
+			path = "taudio-waa_native";
+			sourceTree = "<group>";
+		};
+		C5FE722A27D9FEBB0047D657 /* taudio-waa_nativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FE722B27D9FEBB0047D657 /* taudio_waa_nativeTests.m */,
+			);
+			path = "taudio-waa_nativeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5FE721727D9FEBA0047D657 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52F0EC9280F43AE00294F92 /* bindings.h in Headers */,
+				C57EC38C280FD77C0002153D /* taudio_waa_native.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C5FE721B27D9FEBA0047D657 /* taudio-waa_native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FE723027D9FEBB0047D657 /* Build configuration list for PBXNativeTarget "taudio-waa_native" */;
+			buildPhases = (
+				39A904237A4E34A3694AC9D8 /* [CP] Check Pods Manifest.lock */,
+				C5FE721727D9FEBA0047D657 /* Headers */,
+				C5FE721827D9FEBA0047D657 /* Sources */,
+				C5FE721927D9FEBA0047D657 /* Frameworks */,
+				C5FE721A27D9FEBA0047D657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "taudio-waa_native";
+			productName = "taudio-waa_native";
+			productReference = C5FE721C27D9FEBA0047D657 /* taudio_waa_native.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5FE722527D9FEBB0047D657 /* taudio-waa_nativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FE723327D9FEBB0047D657 /* Build configuration list for PBXNativeTarget "taudio-waa_nativeTests" */;
+			buildPhases = (
+				944E0A1E401E8B212AC329E8 /* [CP] Check Pods Manifest.lock */,
+				C5FE722227D9FEBB0047D657 /* Sources */,
+				C5FE722327D9FEBB0047D657 /* Frameworks */,
+				C5FE722427D9FEBB0047D657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FE722927D9FEBB0047D657 /* PBXTargetDependency */,
+			);
+			name = "taudio-waa_nativeTests";
+			productName = "taudio-waa_nativeTests";
+			productReference = C5FE722627D9FEBB0047D657 /* taudio-waa_nativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FE721327D9FEBA0047D657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C5FE721B27D9FEBA0047D657 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C5FE722527D9FEBB0047D657 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = C5FE721627D9FEBA0047D657 /* Build configuration list for PBXProject "taudio-waa_native" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FE721227D9FEBA0047D657;
+			productRefGroup = C5FE721D27D9FEBA0047D657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FE721B27D9FEBA0047D657 /* taudio-waa_native */,
+				C5FE722527D9FEBB0047D657 /* taudio-waa_nativeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FE721A27D9FEBA0047D657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FE722427D9FEBB0047D657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39A904237A4E34A3694AC9D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taudio-waa_native-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944E0A1E401E8B212AC329E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taudio-waa_native-taudio-waa_nativeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FE721827D9FEBA0047D657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52F0EC7280F431600294F92 /* taudio_waa_native.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FE722227D9FEBB0047D657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FE722C27D9FEBB0047D657 /* taudio_waa_nativeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5FE722927D9FEBB0047D657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FE721B27D9FEBA0047D657 /* taudio-waa_native */;
+			targetProxy = C5FE722827D9FEBB0047D657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5FE722E27D9FEBB0047D657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5FE722F27D9FEBB0047D657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5FE723127D9FEBB0047D657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065B41A0893A0A15F50A0DC4 /* Pods-taudio-waa_native.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VC3TGXH668;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/taudio-waa_native",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-native";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FE723227D9FEBB0047D657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DADCA604346744127AB1E6C /* Pods-taudio-waa_native.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VC3TGXH668;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/taudio-waa_native",
+					"$(PROJECT_DIR)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-native";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5FE723427D9FEBB0047D657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285BF50C41EEB5A6AF7B3B47 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VC3TGXH668;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FE723527D9FEBB0047D657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VC3TGXH668;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FE721627D9FEBA0047D657 /* Build configuration list for PBXProject "taudio-waa_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FE722E27D9FEBB0047D657 /* Debug */,
+				C5FE722F27D9FEBB0047D657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5FE723027D9FEBB0047D657 /* Build configuration list for PBXNativeTarget "taudio-waa_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FE723127D9FEBB0047D657 /* Debug */,
+				C5FE723227D9FEBB0047D657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5FE723327D9FEBB0047D657 /* Build configuration list for PBXNativeTarget "taudio-waa_nativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FE723427D9FEBB0047D657 /* Debug */,
+				C5FE723527D9FEBB0047D657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FE721327D9FEBA0047D657 /* Project object */;
+}
