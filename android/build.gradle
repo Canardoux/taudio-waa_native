@@ -136,7 +136,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = PUBLISH_GROUP_ID
-                artifactId = 'taudio_waa_native'
+                artifactId = 'taudio-waa_native'
                 version = PUBLISH_VERSION
             }
 
@@ -146,7 +146,7 @@ afterEvaluate {
                 from components.debug
 
                 groupId = PUBLISH_GROUP_ID
-                artifactId = 'taudio_waa_native'
+                artifactId = 'taudio-waa_native'
                 version = PUBLISH_VERSION
             }
 
@@ -166,7 +166,7 @@ dependencies {
     // CAUTION: The following instruction is for developping and debugging the Flauto Engine
     // DO NOT INCLUDE THE FOLLOWING LINE IN A REAL APP !!!
     implementation project(':taudio_waa_native')
-    implementation 'com.github.canardoux:taudio-waa_native:9.2.9'
+    implementation 'com.github.canardoux:taudio-waa_native:0.0.9'
     // -------------------------------------------------------------------------------------
 
 }
