@@ -156,18 +156,3 @@ afterEvaluate {
 
 
 
-//signing {
-//    sign publishing.publications
-//}
-
-dependencies {
-
-    // -------------------------------------------------------------------------------------
-    // CAUTION: The following instruction is for developping and debugging the Flauto Engine
-    // DO NOT INCLUDE THE FOLLOWING LINE IN A REAL APP !!!
-    //implementation project(':taudio-waa_native')
-    //implementation 'com.github.canardoux:taudio-waa_native:0.0.12'
-    // -------------------------------------------------------------------------------------
-
-}
-
