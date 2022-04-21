@@ -7,13 +7,15 @@ use web_audio_api::buffer::AudioBuffer;
 use web_audio_api::context::{AudioContext, BaseAudioContext};
 use web_audio_api::node::AudioNode;
 
+mod version;
+
 // run in release mode
 // cargo run --release --example granular
-
 
 #[no_mangle]
 pub extern "C" fn rust_greeting(to: *const c_char) -> *mut c_char {
 
+    println!("{}", version::VERSION);
 
 
    let audio_context = AudioContext::new(None);

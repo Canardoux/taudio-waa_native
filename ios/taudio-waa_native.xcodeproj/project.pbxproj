@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3FA5852A4143C5BEE1325A5B /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */; };
-		C52F0EC7280F431600294F92 /* taudio_waa_native.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C52F0EC6280F431600294F92 /* taudio_waa_native.cpp */; };
 		C52F0EC9280F43AE00294F92 /* bindings.h in Headers */ = {isa = PBXBuildFile; fileRef = C52F0EC8280F43AE00294F92 /* bindings.h */; };
-		C57EC38C280FD77C0002153D /* taudio_waa_native.h in Headers */ = {isa = PBXBuildFile; fileRef = C57EC38B280FD77C0002153D /* taudio_waa_native.h */; };
+		C57EC38E2811B1D80002153D /* taudio_waa_native.h in Headers */ = {isa = PBXBuildFile; fileRef = C57EC38D2811B1D80002153D /* taudio_waa_native.h */; };
+		C57EC3902811B28C0002153D /* taudio_waa_native.mm in Sources */ = {isa = PBXBuildFile; fileRef = C57EC38F2811B28C0002153D /* taudio_waa_native.mm */; };
 		C5CBB50227DA655E0014576B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50127DA655E0014576B /* CoreAudio.framework */; };
 		C5CBB50427DA65690014576B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50327DA65690014576B /* AudioToolbox.framework */; };
 		C5CBB50627DA657C0014576B /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CBB50527DA657C0014576B /* CoreAudioKit.framework */; };
@@ -39,9 +39,9 @@
 		3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native_taudio_waa_nativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FA4E7CB1520E851C53A747 /* Pods_taudio_waa_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; sourceTree = "<group>"; };
-		C52F0EC6280F431600294F92 /* taudio_waa_native.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taudio_waa_native.cpp; sourceTree = "<group>"; };
 		C52F0EC8280F43AE00294F92 /* bindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
-		C57EC38B280FD77C0002153D /* taudio_waa_native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taudio_waa_native.h; sourceTree = "<group>"; };
+		C57EC38D2811B1D80002153D /* taudio_waa_native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taudio_waa_native.h; sourceTree = "<group>"; };
+		C57EC38F2811B28C0002153D /* taudio_waa_native.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = taudio_waa_native.mm; sourceTree = "<group>"; };
 		C5CBB50127DA655E0014576B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
 		C5CBB50327DA65690014576B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		C5CBB50527DA657C0014576B /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/iOSSupport/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -132,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				C52F0EC8280F43AE00294F92 /* bindings.h */,
-				C57EC38B280FD77C0002153D /* taudio_waa_native.h */,
-				C52F0EC6280F431600294F92 /* taudio_waa_native.cpp */,
+				C57EC38D2811B1D80002153D /* taudio_waa_native.h */,
+				C57EC38F2811B28C0002153D /* taudio_waa_native.mm */,
 			);
 			path = "taudio-waa_native";
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52F0EC9280F43AE00294F92 /* bindings.h in Headers */,
-				C57EC38C280FD77C0002153D /* taudio_waa_native.h in Headers */,
+				C57EC38E2811B1D80002153D /* taudio_waa_native.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52F0EC7280F431600294F92 /* taudio_waa_native.cpp in Sources */,
+				C57EC3902811B28C0002153D /* taudio_waa_native.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +469,7 @@
 					"$(PROJECT_DIR)/taudio-waa_native",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.9.18;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-native";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -503,7 +503,7 @@
 					"$(PROJECT_DIR)/taudio-waa_native",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.9.18;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-native";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -521,7 +521,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VC3TGXH668;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.9.18;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-nativeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -538,7 +538,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VC3TGXH668;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 9.9.18;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-nativeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
