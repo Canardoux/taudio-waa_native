@@ -37,6 +37,7 @@ It has been extracted to be isolated from Flutter and can be used with other fra
 
   s.source_files = 'ios/taudio-waa_native/*'
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
+  s.preserve_paths = 'ios/taudio-waa_native/*'
 
   #s.vendored_libraries = 'libtaudio_waa_native.a'
   s.vendored_libraries = 'rust/target/universal/debug/libtaudio_waa_native.a'
