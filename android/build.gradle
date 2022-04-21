@@ -60,8 +60,8 @@ android {
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 30
-        version'0.0.27'
-        version'0.0.27'
+        version'0.0.28'
+        version'0.0.28'
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -110,7 +110,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
 group = PUBLISH_GROUP_ID
-version '0.0.27'
+version '0.0.28'
 
 
 task javadoc(type: Javadoc) {
@@ -137,7 +137,7 @@ afterEvaluate {
                 from components.release
                 groupId = PUBLISH_GROUP_ID
                 artifactId = 'taudio-waa_native'
-                version '0.0.27'
+                version '0.0.28'
             }
 
                         // Creates a Maven publication called “debug”.
@@ -147,7 +147,7 @@ afterEvaluate {
 
                 groupId = PUBLISH_GROUP_ID
                 artifactId = 'taudio-waa_native'
-                version '0.0.27'
+                version '0.0.28'
             }
 
         }
