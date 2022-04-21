@@ -15,7 +15,4 @@ FOUNDATION_EXPORT const unsigned char taudio_waa_nativeVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <taudio_waa_native/PublicHeader.h>
 
-
-#import  "bindings.h"
-
-#define VERSION "0.0.26"
+#define VERSION "0.0.25"
