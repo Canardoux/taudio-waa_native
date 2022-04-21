@@ -1,0 +1,6 @@
+framework module Pods_taudio_waa_native_taudio_waa_nativeTests {
+  umbrella header "Pods-taudio-waa_native-taudio-waa_nativeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
