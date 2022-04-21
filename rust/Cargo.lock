@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "TAUDIO-WAA_NATIVE"
-version = "0.0.29"
+version = "0.0.30"
 dependencies = [
  "rand",
  "web-audio-api",

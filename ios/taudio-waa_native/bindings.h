@@ -1,6 +1,6 @@
 
-extern "C" {
+//extern "C" {
 
-char *rust_greeting(const char *to);
+//char *rust_greeting(const char *to);
 
-} // extern "C"
+//} // extern "C"
