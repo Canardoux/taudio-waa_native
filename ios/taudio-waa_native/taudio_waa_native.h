@@ -18,4 +18,4 @@ FOUNDATION_EXPORT const unsigned char taudio_waa_nativeVersionString[];
 
 #import  "bindings.h"
 
-#define VERSION "9.9.18"
+#define VERSION "0.0.17"
