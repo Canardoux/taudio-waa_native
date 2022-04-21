@@ -36,10 +36,4 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   #s.vendored_libraries = 'ios/taudio-waa_native/*.a'
   #s.ios.vendored_frameworks = 'Pods_taudio_waa_native'
 
-  #s.subspec 'taudio_waa_native' do |rustlib|
-  #    rustlib.preserve_paths = 'ios/taudio-waa_native/bindings.h'
-  #    rustlib.vendored_libraries = 'ios/taudio-waa_native/libtaudio_waa_native.a'
-  #    rustlib.libraries = 'taudio_waa_native'
-  #    rustlib.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/ios/taudio-waa_native/*" }
-  #end
 end
