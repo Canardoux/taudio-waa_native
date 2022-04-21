@@ -30,7 +30,7 @@ It has been extracted to be isolated from Flutter and can be used with other fra
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ios/taudio-waa_native/*'
+  s.source_files = 'ios/taudio-waa_native/taudio_waa_native.*'
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
 
   #s.vendored_libraries = 'ios/taudio-waa_native/*.a'

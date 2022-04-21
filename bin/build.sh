@@ -9,6 +9,8 @@ cd ..
 
 
 cd ios
+rm Podfile.lock
+pod install
 xcodebuild -scheme taudio-waa_native clean
 xcodebuild -scheme taudio-waa_native build
 cd ..
