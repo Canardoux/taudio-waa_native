@@ -38,7 +38,7 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   s.source_files = 'ios/taudio-waa_native/*'
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
 
-  s.vendored_libraries = 'taudio_waa_native.a'
+  s.vendored_libraries = 'libtaudio_waa_native.a'
   #s.ios.vendored_frameworks = 'Pods_taudio_waa_native'
 
 end
