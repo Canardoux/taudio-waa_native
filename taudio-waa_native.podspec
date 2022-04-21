@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'taudio-waa_native'
-  s.version          = '0.0.23'
+  s.version          = '0.0.24'
   s.summary          = 'Provides simple recorder and player functionalities for iOS platform.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ It has been extracted to be isolated from Flutter and can be used with other fra
 
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'i386' }
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386' }
   #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 aarch64' }
   #s.user_target_xcconfig = { 'VALID_ARCHS' => 'arm64 aarch64' }
 
