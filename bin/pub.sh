@@ -7,10 +7,8 @@ fi
 
 
 VERSION=$1
-VERSION_CODE=${VERSION#./}
-VERSION_CODE=${VERSION_CODE#+/}
 
-bin/setver.sh $1
+bin/setver.sh $VERSION
 bin/build.sh
 bin/reldev REL
 
