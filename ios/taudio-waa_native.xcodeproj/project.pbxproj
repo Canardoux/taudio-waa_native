@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BDF7EBEC6584D5A5E6DE8F7 /* Pods_taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FA4E7CB1520E851C53A747 /* Pods_taudio_waa_native.framework */; };
 		3FA5852A4143C5BEE1325A5B /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */; };
 		C52F0EC9280F43AE00294F92 /* bindings.h in Headers */ = {isa = PBXBuildFile; fileRef = C52F0EC8280F43AE00294F92 /* bindings.h */; };
 		C57EC38E2811B1D80002153D /* taudio_waa_native.h in Headers */ = {isa = PBXBuildFile; fileRef = C57EC38D2811B1D80002153D /* taudio_waa_native.h */; };
@@ -66,6 +67,7 @@
 				C5CBB50627DA657C0014576B /* CoreAudioKit.framework in Frameworks */,
 				C5F09598280B1C44007DBD42 /* Security.framework in Frameworks */,
 				C5CBB50427DA65690014576B /* AudioToolbox.framework in Frameworks */,
+				2BDF7EBEC6584D5A5E6DE8F7 /* Pods_taudio_waa_native.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

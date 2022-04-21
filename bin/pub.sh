@@ -24,4 +24,11 @@ if [ ! -z "$VERSION" ]; then
 fi
 
 
+pod trunk push taudio-waa_native.podspec
+if [ $? -ne 0 ]; then
+    echo "Error"
+    #exit -1
+fi
+
+
 echo 'E.O.J'

@@ -23,17 +23,17 @@ This code was originally inside the flutter_sound/ios directory.
 It has been extracted to be isolated from Flutter and can be used with other frameworks.
                        DESC
 
-  s.homepage         = 'https://github.com/canardoux/flutter_sound'
+  s.homepage         = 'https://github.com/canardoux/taudio-waa_native'
   s.license          = { :type => 'MPL2', :file => 'LICENSE' }
   s.author           = { 'larpoux' => 'larpoux@gmail.com' }
-  s.source           = { :git => 'https://github.com/canardoux/flutter_sound_core.git', :tag => '' + s.version.to_s }
+  s.source           = { :git => 'https://github.com/canardoux/taudio-waa_native.git', :tag => '' + s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ios/taudio-waa_native/*'
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
 
-  s.vendored_libraries = 'rust/target/universal/debug/libtaudio_waa_native.a'
+  s.vendored_libraries = 'ios/taudio-waa_native/*.a'
 
   #s.subspec 'taudio_waa_native' do |rustlib|
   #    rustlib.preserve_paths = 'ios/taudio-waa_native/bindings.h'
