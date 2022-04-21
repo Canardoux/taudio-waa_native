@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FA5852A4143C5BEE1325A5B /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF80426BC1E93424E88371D /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */; };
+		A007E580A2D21CC24908D09C /* Pods_taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51F08724263EB5529894A07 /* Pods_taudio_waa_native.framework */; };
 		C52F0EC9280F43AE00294F92 /* bindings.h in Headers */ = {isa = PBXBuildFile; fileRef = C52F0EC8280F43AE00294F92 /* bindings.h */; };
 		C57EC38E2811B1D80002153D /* taudio_waa_native.h in Headers */ = {isa = PBXBuildFile; fileRef = C57EC38D2811B1D80002153D /* taudio_waa_native.h */; };
 		C57EC3902811B28C0002153D /* taudio_waa_native.mm in Sources */ = {isa = PBXBuildFile; fileRef = C57EC38F2811B28C0002153D /* taudio_waa_native.mm */; };
@@ -20,7 +21,6 @@
 		C5F0959F280B2716007DBD42 /* libtaudio_waa_native.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F0959E280B266D007DBD42 /* libtaudio_waa_native.a */; };
 		C5FE722727D9FEBB0047D657 /* taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FE721C27D9FEBA0047D657 /* taudio_waa_native.framework */; };
 		C5FE722C27D9FEBB0047D657 /* taudio_waa_nativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FE722B27D9FEBB0047D657 /* taudio_waa_nativeTests.m */; };
-		E5D228DF642570D4D0BBAC25 /* Pods_taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51F08724263EB5529894A07 /* Pods_taudio_waa_native.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,7 @@
 				C5CBB50627DA657C0014576B /* CoreAudioKit.framework in Frameworks */,
 				C5F09598280B1C44007DBD42 /* Security.framework in Frameworks */,
 				C5CBB50427DA65690014576B /* AudioToolbox.framework in Frameworks */,
-				E5D228DF642570D4D0BBAC25 /* Pods_taudio_waa_native.framework in Frameworks */,
+				A007E580A2D21CC24908D09C /* Pods_taudio_waa_native.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
