@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4143D59882CF310277B9B01 /* Pods_taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B851AA3D167911F6CCD0E2 /* Pods_taudio_waa_native.framework */; };
+		A5D4CAD0D86208B98FDA21A0 /* Pods_taudio_waa_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7EE108A712A533A45E8FEF /* Pods_taudio_waa_native.framework */; };
 		C52F0EC9280F43AE00294F92 /* bindings.h in Headers */ = {isa = PBXBuildFile; fileRef = C52F0EC8280F43AE00294F92 /* bindings.h */; };
 		C57EC38E2811B1D80002153D /* taudio_waa_native.h in Headers */ = {isa = PBXBuildFile; fileRef = C57EC38D2811B1D80002153D /* taudio_waa_native.h */; };
 		C57EC3902811B28C0002153D /* taudio_waa_native.mm in Sources */ = {isa = PBXBuildFile; fileRef = C57EC38F2811B28C0002153D /* taudio_waa_native.mm */; };
@@ -34,12 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065B41A0893A0A15F50A0DC4 /* Pods-taudio-waa_native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native.debug.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native/Pods-taudio-waa_native.debug.xcconfig"; sourceTree = "<group>"; };
-		285BF50C41EEB5A6AF7B3B47 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3DADCA604346744127AB1E6C /* Pods-taudio-waa_native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native/Pods-taudio-waa_native.release.xcconfig"; sourceTree = "<group>"; };
-		8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D5904D5D9108EE6F6FD2685 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		47F12CF253A97B16B2274FB1 /* Pods-taudio-waa_native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native.release.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native/Pods-taudio-waa_native.release.xcconfig"; sourceTree = "<group>"; };
+		4B7EE108A712A533A45E8FEF /* Pods_taudio_waa_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91442E0FB542CAB961730EBB /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native_taudio_waa_nativeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6B851AA3D167911F6CCD0E2 /* Pods_taudio_waa_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taudio_waa_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2D0F705237B8975170500 /* Pods-taudio-waa_native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native.debug.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native/Pods-taudio-waa_native.debug.xcconfig"; sourceTree = "<group>"; };
 		C52F0EC8280F43AE00294F92 /* bindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
 		C57EC38D2811B1D80002153D /* taudio_waa_native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taudio_waa_native.h; sourceTree = "<group>"; };
 		C57EC38F2811B28C0002153D /* taudio_waa_native.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = taudio_waa_native.mm; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		C5FE721C27D9FEBA0047D657 /* taudio_waa_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = taudio_waa_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FE722627D9FEBB0047D657 /* taudio-waa_nativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taudio-waa_nativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FE722B27D9FEBB0047D657 /* taudio_waa_nativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taudio_waa_nativeTests.m; sourceTree = "<group>"; };
+		D373CEF4075CE2A0F3AC0127 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig"; path = "Target Support Files/Pods-taudio-waa_native-taudio-waa_nativeTests/Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				C5CBB50627DA657C0014576B /* CoreAudioKit.framework in Frameworks */,
 				C5F09598280B1C44007DBD42 /* Security.framework in Frameworks */,
 				C5CBB50427DA65690014576B /* AudioToolbox.framework in Frameworks */,
-				C4143D59882CF310277B9B01 /* Pods_taudio_waa_native.framework in Frameworks */,
+				A5D4CAD0D86208B98FDA21A0 /* Pods_taudio_waa_native.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,14 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B5B76C2B56212BC566E9867 /* Pods */ = {
+		C2384D5237B478D0E938F107 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				065B41A0893A0A15F50A0DC4 /* Pods-taudio-waa_native.debug.xcconfig */,
-				3DADCA604346744127AB1E6C /* Pods-taudio-waa_native.release.xcconfig */,
-				285BF50C41EEB5A6AF7B3B47 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */,
-				8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */,
+				BDB2D0F705237B8975170500 /* Pods-taudio-waa_native.debug.xcconfig */,
+				47F12CF253A97B16B2274FB1 /* Pods-taudio-waa_native.release.xcconfig */,
+				D373CEF4075CE2A0F3AC0127 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */,
+				1D5904D5D9108EE6F6FD2685 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,8 +105,8 @@
 				C5CBB50527DA657C0014576B /* CoreAudioKit.framework */,
 				C5CBB50327DA65690014576B /* AudioToolbox.framework */,
 				C5CBB50127DA655E0014576B /* CoreAudio.framework */,
-				B6B851AA3D167911F6CCD0E2 /* Pods_taudio_waa_native.framework */,
 				91442E0FB542CAB961730EBB /* Pods_taudio_waa_native_taudio_waa_nativeTests.framework */,
+				4B7EE108A712A533A45E8FEF /* Pods_taudio_waa_native.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +118,7 @@
 				C5FE722A27D9FEBB0047D657 /* taudio-waa_nativeTests */,
 				C5FE721D27D9FEBA0047D657 /* Products */,
 				C5CBB4EE27D9FF6D0014576B /* Frameworks */,
-				1B5B76C2B56212BC566E9867 /* Pods */,
+				C2384D5237B478D0E938F107 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -449,7 +450,7 @@
 		};
 		C5FE723127D9FEBB0047D657 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 065B41A0893A0A15F50A0DC4 /* Pods-taudio-waa_native.debug.xcconfig */;
+			baseConfigurationReference = BDB2D0F705237B8975170500 /* Pods-taudio-waa_native.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -483,7 +484,7 @@
 		};
 		C5FE723227D9FEBB0047D657 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DADCA604346744127AB1E6C /* Pods-taudio-waa_native.release.xcconfig */;
+			baseConfigurationReference = 47F12CF253A97B16B2274FB1 /* Pods-taudio-waa_native.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -517,7 +518,7 @@
 		};
 		C5FE723427D9FEBB0047D657 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 285BF50C41EEB5A6AF7B3B47 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */;
+			baseConfigurationReference = D373CEF4075CE2A0F3AC0127 /* Pods-taudio-waa_native-taudio-waa_nativeTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,7 +535,7 @@
 		};
 		C5FE723527D9FEBB0047D657 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B550C7873074CEBD1B3CC46 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */;
+			baseConfigurationReference = 1D5904D5D9108EE6F6FD2685 /* Pods-taudio-waa_native-taudio-waa_nativeTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
