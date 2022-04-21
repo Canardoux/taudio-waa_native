@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'taudio-waa_native'
-  s.version          = '0.0.24'
+  s.version          = '0.0.25'
   s.summary          = 'Provides simple recorder and player functionalities for iOS platform.'
 
 # This description is used to generate tags and improve search results.
