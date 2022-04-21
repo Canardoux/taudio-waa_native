@@ -34,7 +34,7 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
 
   s.vendored_libraries = 'ios/taudio-waa_native/*.a'
-  s.ios.vendored_frameworks = 'taudio-waa_native'
+  s.ios.vendored_frameworks = 'Pods_taudio_waa_native'
 
   #s.subspec 'taudio_waa_native' do |rustlib|
   #    rustlib.preserve_paths = 'ios/taudio-waa_native/bindings.h'
