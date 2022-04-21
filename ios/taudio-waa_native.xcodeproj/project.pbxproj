@@ -472,7 +472,7 @@
 					"$(PROJECT_DIR)/taudio-waa_native",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 0.0.30;
+				MARKETING_VERSION = 0.0.31;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-native";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -506,7 +506,7 @@
 					"$(PROJECT_DIR)/taudio-waa_native",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 0.0.30;
+				MARKETING_VERSION = 0.0.31;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-native";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -524,7 +524,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VC3TGXH668;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 0.0.30;
+				MARKETING_VERSION = 0.0.31;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-nativeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -541,7 +541,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VC3TGXH668;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 0.0.30;
+				MARKETING_VERSION = 0.0.31;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.thetatau.taudio-waa-nativeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
