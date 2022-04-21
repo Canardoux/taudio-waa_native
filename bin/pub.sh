@@ -11,15 +11,15 @@ VERSION_CODE=${VERSION#./}
 VERSION_CODE=${VERSION_CODE#+/}
 
 bin/setver.sh $1
-bin/build-release.sh
+bin/build.sh
 bin/reldev REL
 
 git add .
-git commit -m "TAU : Version $VERSION"
+git commit -m "Taudio-aaa_native : Version $VERSION"
 git pull origin
 git push origin
 if [ ! -z "$VERSION" ]; then
-    git tag -f $VERSION
+    git tag -f $VERSION  -m "Taudio-aaa_native : Version $VERSION"
     git push  -f origin $VERSION
 fi
 
