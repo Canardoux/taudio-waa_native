@@ -8,6 +8,8 @@ cbindgen ./src/lib.rs -c cbindgen.toml | grep -v \#include | uniq > target/bindi
 cd ..
 
 
+exit 0
+
 cd ios
 rm Podfile.lock
 pod install
