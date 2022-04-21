@@ -26,7 +26,7 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   s.homepage         = 'https://github.com/canardoux/taudio-waa_native'
   s.license          = { :type => 'MPL2', :file => 'LICENSE' }
   s.author           = { 'larpoux' => 'larpoux@gmail.com' }
-  s.source           = { :git => 'https://github.com/canardoux/taudio-waa_native.git/ios', :tag => '' + s.version.to_s }
+  s.source           = { :git => 'https://github.com/canardoux/taudio-waa_native.git', :tag => '' + s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'arm64 i386' }
@@ -35,7 +35,7 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 aarch64' }
   #s.user_target_xcconfig = { 'VALID_ARCHS' => 'arm64 aarch64' }
 
-  s.source_files = 'taudio-waa_native/*'
+  s.source_files = 'ios/taudio-waa_native/*'
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
 
   s.vendored_libraries = 'ios/*.a'
