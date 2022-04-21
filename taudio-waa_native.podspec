@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'taudio-waa_native'
-  s.version          = '0.0.21'
+  s.version          = '0.0.22'
   s.summary          = 'Provides simple recorder and player functionalities for iOS platform.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,9 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   s.source           = { :git => 'https://github.com/canardoux/taudio-waa_native.git', :tag => '' + s.version.to_s }
 
   s.ios.deployment_target = '10.0'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'i386' }
+  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 aarch64' }
+  #s.user_target_xcconfig = { 'VALID_ARCHS' => 'arm64 aarch64' }
 
   s.source_files = 'ios/taudio-waa_native/*'
   s.frameworks = 'AVFoundation', 'MediaPlayer', 'CoreServices', 'CoreFoundation', 'AudioToolbox', 'CoreAudio'
