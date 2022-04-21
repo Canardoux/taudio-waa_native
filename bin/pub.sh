@@ -9,7 +9,7 @@ fi
 VERSION=$1
 
 bin/setver.sh $VERSION
-bin/build.sh
+#bin/rebuild.sh
 bin/reldev REL
 
 git add .
