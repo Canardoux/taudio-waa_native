@@ -1,5 +1,5 @@
 
-#import  "bindings.h"
+#import  "bindings.h";
 // This will never be executed
 extern "C" void dummyMethodToEnforceBundling ()
 {
